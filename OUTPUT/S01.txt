@@ -1,0 +1,22 @@
+ 1 SDSF SYS DISPLAY  S0W1     S0W1                        LINE 1-1 (1)
+   COMMAND INPUT ===>                                            SCROLL ===> PAGE
+   NP   SYSNAME  SysLevel   CPU%      SIO Aux% CSA% SQA% ECSA% ESQA% UIC   Spool% CADS% PageRate Real     RealAFC  RealAFCB Fix% FixB%
+        S0W1     z/OS 02.03    3        0    0    5   24    13    76 65535     26    48        0  1500743   594580     2958    6     1
+ 1 SDSF PARMLIB DISPLAY  S0W1     S0W1     EXT    10      LINE 1-4 (4)
+   COMMAND INPUT ===>                                            SCROLL ===> PAGE
+   NP   DSNAME         Seq VolSer BlkSize Extent SMS LRecL DSOrg RecFm CrDate   RefDate  SysName  SysLevel
+        VENDOR.PARMLIB   1 VPMVSD    6160      1 NO     80 PO    FB    2003.119 2018.259 S0W1     z/OS 02.03.00 HBB77B0
+        SVTSC.PARMLIB    2 VTMVSG    6160      1 NO     80 PO    FB    1997.118 2017.300 S0W1     z/OS 02.03.00 HBB77B0
+        LVL0.PARMLIB     3 VTLVL0    6160      7 NO     80 PO    FB    2007.025 2018.225 S0W1     z/OS 02.03.00 HBB77B0
+        SYS1.PARMLIB     4 VIMVSB   27920      1 NO     80 PO    FB    2017.116 2018.225 S0W1     z/OS 02.03.00 HBB77B0
+ 1 SDSF PROC DISPLAY  S0W1     EXT    20                  LINE 1-8 (8)
+   COMMAND INPUT ===>                                            SCROLL ===> PAGE
+   NP   DDNAME   Seq DSName                                       VolSer DefVol Status     TSO STC Static BlkSize Extent SMS LRecL DSO
+        PROC00     1 VENDOR.PROCLIB                               VPMVSD VPMVSD OK         NO  NO  YES       6160      1 NO     80 PO
+        PROC00     2 SVTSC.PROCLIB                                VTMVSG VTMVSG OK         NO  NO  YES       6160      7 NO     80 PO
+        PROC00     3 LVL0.PROCLIB                                 VTLVL0 VTLVL0 OK         NO  NO  YES       6160      1 NO     80 PO
+        PROC00     4 SYS1.PROCLIB                                 VIMVSB VIMVSB OK         NO  NO  YES      27920      1 NO     80 PO
+        PROC01     1 VENDOR.PROCLIB                               VPMVSD VPMVSD OK         YES YES YES       6160      1 NO     80 PO
+        PROC01     2 SVTSC.PROCLIB                                VTMVSG VTMVSG OK         YES YES YES       6160      7 NO     80 PO
+        PROC01     3 LVL0.PROCLIB                                 VTLVL0 VTLVL0 OK         YES YES YES       6160      1 NO     80 PO
+        PROC01     4 SYS1.PROCLIB                                 VIMVSB VIMVSB OK         YES YES YES      27920      1 NO     80 PO
